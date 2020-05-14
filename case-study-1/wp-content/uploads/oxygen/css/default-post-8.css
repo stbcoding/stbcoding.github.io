@@ -1,0 +1,33 @@
+#section-8-111 > .ct-section-inner-wrap {padding-top: 120px;display: flex;flex-direction: column;align-items: center;}
+#section-8-111 {background-color: #07adb7;background-repeat: no-repeat;text-align: center;background-position: 50% 50%;}
+#section-3-111 > .ct-section-inner-wrap {max-width: 720px;padding-top: 20px;padding-bottom: 20px;}
+#section-14-111 > .ct-section-inner-wrap {max-width: 720px;padding-top: 40px;padding-bottom: 40px;}
+#section-14-111 {background-color: #f6fafd;}
+@media (max-width:767px) {#section-14-111 > .ct-section-inner-wrap {padding-bottom: 20px;}}
+#headline-10-111 {color: #fff;margin-left: 20px;margin-right: 20px;margin-bottom: 12px;}
+#text_block-12-111 {color: rgba(255,255,255,.6);font-size: 16px;font-weight: 400;font-family: "Maven Pro";}
+.comments-title {font-size: 40px;color: #2a445a;line-height: 1.1;text-align: center;margin-bottom: 48px;display: block;}
+.comment-body {background: white;box-shadow: rgba(0,0,0,.1) 0 0 5px;border-radius: 5px;padding: 28px;margin-bottom: 20px !important;}
+@media (max-width:768px) {.oxy-comments ol.children {margin-left: 0;}}
+.comment-content {color: #666;font-size: 16px;}
+.comment-reply-link {color: #07adb7;font-size: 16px !important;text-decoration: none;font-weight: 700;transition: all ease .2s;padding: 12px 32px;border: 2px solid #07adb7;border-radius: 5px;}
+.comment-reply-link:hover {transform: scale(1.05,1.05);}
+.avatar {border-radius: 100%;border: 3px solid #8ec98a;margin-right: 12px !important;}
+.comment-author {margin-bottom: 16px;font-family: "Raleway";color: #2a445a;}
+.fn {font-weight: 900;}
+.comment-metadata a {color: #07adb7;text-decoration: none;margin-right: 12px;}
+.comment-metadata a:hover {text-decoration: underline;}
+.oxy-comment-form label {display: none;}
+.oxy-comment-form textarea {padding: 20px;resize: none;outline: none;transition: all ease .2s;}
+.oxy-comment-form textarea:focus {box-shadow: rgba(0,0,0,.2) 0 0 10px;}
+.oxy-comment-form #submit {box-shadow: 0px 25px 20px -20px rgba(0,0,0,.2) !important;font-weight: 700;transition: all ease .2s;outline: none;}
+.oxy-comment-form #submit:hover {transform: scale(1.05,1.05);}
+.comment-reply-title {color: #fff;font-weight: 700;font-size: 40px;line-height: 1.1;}
+.comment-reply-title a {color: rgba(255,255,255,.5);text-decoration: none;transition: all ease .2s;}
+.comment-reply-title a:hover {color: white;text-decoration: underline;}
+p.logged-in-as {margin-bottom: 28px !important;color: transparent;}
+.logged-in-as a {color: rgba(255,255,255,.5);text-decoration: none;transition: all ease .2s;margin: 0 8px;}
+.logged-in-as a:hover {color: white;text-decoration: underline;}
+#_comment_form-16-111 {background-image: linear-gradient(135deg,#b1d27d,#00a5bd);display: flex;flex-direction: column;align-items: stretch;padding-top: 28px;padding-left: 28px;padding-right: 28px;padding-bottom: 12px;border-radius: 5px;text-align: center;color: #fff;}
+#_comment_form-16-111 input, #_comment_form-16-111 textarea {border-color: #fff;color: #666;border-radius: 5px;}
+#_comment_form-16-111 #submit {background-color: #07adb7;color: #fff;}

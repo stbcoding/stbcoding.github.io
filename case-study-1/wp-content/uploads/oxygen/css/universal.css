@@ -1,0 +1,236 @@
+.ct-section {width: 100%;background-size: cover;background-repeat: repeat;}
+.ct-section>.ct-section-inner-wrap {display: flex;flex-direction: column;align-items: flex-start;}
+.ct-div-block {display: flex;flex-wrap: nowrap;flex-direction: column;align-items: flex-start;}
+.ct-new-columns {display: flex;width: 100%;flex-direction: row;align-items: stretch;justify-content: center;flex-wrap: wrap;}
+.ct-link-text {display: inline-block;}
+.ct-link {display: flex;flex-wrap: wrap;text-align: center;text-decoration: none;flex-direction: column;align-items: center;justify-content: center;}
+.ct-link-button {display: inline-block;text-align: center;text-decoration: none;}
+.ct-link-button {background-color: #1e73be;border: 1px solid #1e73be;color: #fff;padding: 10px 16px;}
+.ct-image {max-width: 100%;}
+.ct-fancy-icon>svg {width: 55px;height: 55px;}
+.ct-inner-content {width: 100%;}
+.ct-slide {display: flex;flex-wrap: wrap;text-align: center;flex-direction: column;align-items: center;justify-content: center;}
+.ct-nestable-shortcode {display: flex;flex-wrap: nowrap;flex-direction: column;align-items: flex-start;}
+.oxy-comments {width: 100%;text-align: left;}
+.oxy-comment-form {width: 100%;}
+.oxy-login-form {width: 100%;}
+.oxy-search-form {width: 100%;}
+.oxy-tabs-contents {display: flex;width: 100%;flex-wrap: nowrap;flex-direction: column;align-items: flex-start;}
+.oxy-tab {display: flex;flex-wrap: nowrap;flex-direction: column;align-items: flex-start;}
+.oxy-tab-content {display: flex;width: 100%;flex-wrap: nowrap;flex-direction: column;align-items: flex-start;}
+.oxy-testimonial {width: 100%;}
+.oxy-icon-box {width: 100%;}
+.oxy-pricing-box {width: 100%;}
+.oxy-posts-grid {width: 100%;}
+.oxy-gallery {width: 100%;}
+.ct-slider {width: 100%;}
+.oxy-tabs {display: flex;flex-wrap: nowrap;flex-direction: row;align-items: stretch;}
+.ct-modal {flex-direction: column;align-items: flex-start;}
+.ct-span {display: inline-block;text-decoration: inherit;}
+.ct-widget {width: 100%;}
+.oxy-dynamic-list {width: 100%;}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {.ct-div-block, .oxy-post-content, .ct-text-block, .ct-headline, .oxy-rich-text, .ct-link-text {max-width: 100%;}
+	img {flex-shrink: 0;}
+	body * {min-height: 1px;}}
+.oxy-testimonial {flex-direction: row;align-items: center;}
+.oxy-testimonial .oxy-testimonial-photo-wrap {order: 1;}
+.oxy-testimonial .oxy-testimonial-photo {width: 125px;height: 125px;margin-right: 20px;}
+.oxy-testimonial .oxy-testimonial-photo-wrap, .oxy-testimonial .oxy-testimonial-author-wrap, .oxy-testimonial .oxy-testimonial-content-wrap {align-items: flex-start;text-align: left;}
+.oxy-testimonial .oxy-testimonial-text {margin-bottom: 8px;font-size: 21px;line-height: 1.4;-webkit-font-smoothing: subpixel-antialiased;}
+.oxy-testimonial .oxy-testimonial-author {font-size: 18px;-webkit-font-smoothing: subpixel-antialiased;}
+.oxy-testimonial .oxy-testimonial-author-info {font-size: 12px;-webkit-font-smoothing: subpixel-antialiased;}
+.oxy-icon-box {text-align: left;flex-direction: column;}
+.oxy-icon-box .oxy-icon-box-icon {margin-bottom: 12px;align-self: flex-start;}
+.oxy-icon-box .oxy-icon-box-heading {font-size: 21px;margin-bottom: 12px;}
+.oxy-icon-box .oxy-icon-box-text {font-size: 16px;margin-bottom: 12px;align-self: flex-start;}
+.oxy-icon-box .oxy-icon-box-link {margin-top: 20px;}
+.oxy-pricing-box .oxy-pricing-box-section {padding-top: 20px;padding-left: 20px;padding-right: 20px;padding-bottom: 20px;alignment: center;text-align: center;}
+.oxy-pricing-box .oxy-pricing-box-section.oxy-pricing-box-price {justify-content: center;}
+.oxy-pricing-box .oxy-pricing-box-section.oxy-pricing-box-graphic {justify-content: center;}
+.oxy-pricing-box .oxy-pricing-box-title-title {font-size: 48px;}
+.oxy-pricing-box .oxy-pricing-box-title-subtitle {font-size: 24px;}
+.oxy-pricing-box .oxy-pricing-box-section.oxy-pricing-box-price {flex-direction: row;}
+.oxy-pricing-box .oxy-pricing-box-currency {font-size: 28px;}
+.oxy-pricing-box .oxy-pricing-box-amount-main {font-size: 80px;line-height: .7;}
+.oxy-pricing-box .oxy-pricing-box-amount-decimal {font-size: 13px;}
+.oxy-pricing-box .oxy-pricing-box-term {font-size: 16px;}
+.oxy-pricing-box .oxy-pricing-box-sale-price {font-size: 12px;color: rgba(0,0,0,.5);margin-bottom: 20px;}
+.oxy-pricing-box .oxy-pricing-box-section.oxy-pricing-box-content {font-size: 16px;color: rgba(0,0,0,.5);}
+.oxy-pricing-box .oxy-pricing-box-section.oxy-pricing-box-cta {justify-content: center;}
+.oxy-progress-bar .oxy-progress-bar-background {background-color: #000;background-image: linear-gradient(-45deg,rgba(255,255,255,.12) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.12) 50%,rgba(255,255,255,.12) 75%,transparent 75%,transparent);animation: none 0s paused;}
+.oxy-progress-bar .oxy-progress-bar-progress-wrap {width: 85%;}
+.oxy-progress-bar .oxy-progress-bar-progress {background-color: #6af;padding: 40px;animation: none 0s paused,none 0s paused;background-image: linear-gradient(-45deg,rgba(255,255,255,.12) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.12) 50%,rgba(255,255,255,.12) 75%,transparent 75%,transparent);}
+.oxy-progress-bar .oxy-progress-bar-overlay-text {font-size: 30px;font-weight: 900;-webkit-font-smoothing: subpixel-antialiased;}
+.oxy-progress-bar .oxy-progress-bar-overlay-percent {font-size: 12px;}
+.ct-slider .unslider-nav ol li {border-color: #fff;}
+.ct-slider .unslider-nav ol li.unslider-active {background-color: #fff;}
+.ct-slider .ct-slide {padding: 0px;}
+.oxy-superbox .oxy-superbox-secondary, .oxy-superbox .oxy-superbox-primary {transition-duration: .5s;}
+.oxy-pro-menu {menu_dropdown_animation: fade-up;}
+.oxy-pro-menu .oxy-pro-menu-list .menu-item a {padding-top: px;padding-left: px;padding-right: px;padding-bottom: px;}
+.oxy-pro-menu .oxy-pro-menu-list > .menu-item {margin-top: px;margin-left: px;margin-right: px;margin-bottom: px;}
+.oxy-pro-menu .oxy-pro-menu-container:not(.oxy-pro-menu-open-container):not(.oxy-pro-menu-off-canvas-container) .sub-menu {box-shadow: px px px px;}
+.oxy-pro-menu .oxy-pro-menu-show-dropdown .oxy-pro-menu-list .menu-item-has-children > a svg {margin-top: px;margin-left: px;margin-right: px;margin-bottom: px;transition-duration: .4s;}
+.oxy-pro-menu .oxy-pro-menu-show-dropdown .oxy-pro-menu-list .menu-item-has-children > a div {margin-left: 0px;}
+.oxy-pro-menu .oxy-pro-menu-container:not(.oxy-pro-menu-open-container):not(.oxy-pro-menu-off-canvas-container) .sub-menu .menu-item a {padding-top: px;padding-left: px;padding-right: px;padding-bottom: px;}
+.oxy-pro-menu .oxy-pro-menu-mobile-open-icon svg {width: 30px;height: 30px;}
+.oxy-pro-menu .oxy-pro-menu-mobile-open-icon {padding-top: 15px;padding-right: 15px;padding-bottom: 15px;padding-left: 15px;}
+.oxy-pro-menu .oxy-pro-menu-mobile-open-icon, .oxy-pro-menu .oxy-pro-menu-mobile-open-icon svg {transition-duration: .4s;}
+.oxy-pro-menu .oxy-pro-menu-mobile-close-icon {top: 20px;left: 20px;}
+.oxy-pro-menu .oxy-pro-menu-mobile-close-icon svg {width: 24px;height: 24px;}
+.oxy-pro-menu .oxy-pro-menu-mobile-close-icon, .oxy-pro-menu .oxy-pro-menu-mobile-close-icon svg {transition-duration: .4s;}
+.oxy-pro-menu .oxy-pro-menu-off-canvas-container > div:first-child, .oxy-pro-menu .oxy-pro-menu-open-container > div:first-child {oxy-pro-menu_slug_oxypromenuoffcanvascontaineroxypromenulistmenuitemoxypromenuopencontaineroxypromenulistmenuitem_min_width: px;}
+.oxy-pro-menu .oxy-pro-menu-off-canvas-container {oxy-pro-menu_slug_oxypromenuoffcanvascontainer_width: px;}
+.oxy-pro-menu .oxy-pro-menu-container.oxy-pro-menu-off-canvas-container, .oxy-pro-menu .oxy-pro-menu-container.oxy-pro-menu-open-container {background-color: #fff;}
+.oxy-pro-menu .oxy-pro-menu-container.oxy-pro-menu-open-container .menu-item a, .oxy-pro-menu .oxy-pro-menu-container.oxy-pro-menu-off-canvas-container .menu-item a {padding-top: px;padding-left: px;padding-right: px;padding-bottom: px;}
+.oxy-pro-menu .oxy-pro-menu-container.oxy-pro-menu-open-container, .oxy-pro-menu .oxy-pro-menu-container.oxy-pro-menu-off-canvas-container {padding-top: px;padding-left: px;padding-right: px;padding-bottom: px;}
+.oxy-pro-menu .oxy-pro-menu-off-canvas-container, .oxy-pro-menu .oxy-pro-menu-open-container {background-color: ;background-image: url("");overlay-color: ;background-size: ;background-repeat: ;background-attachment: ;background-blend-mode: ;background-size-width: px;background-size-height: px;background-position: px px;}
+.oxy-pro-menu .oxy-pro-menu-off-canvas-container .oxy-pro-menu-list .menu-item-has-children > a svg, .oxy-pro-menu .oxy-pro-menu-open-container .oxy-pro-menu-list .menu-item-has-children > a svg {font-size: 24px;}
+.oxy-pro-menu .oxy-pro-menu-dropdown-links-toggle.oxy-pro-menu-open-container .menu-item-has-children ul, .oxy-pro-menu .oxy-pro-menu-dropdown-links-toggle.oxy-pro-menu-off-canvas-container .menu-item-has-children ul {background-color: rgba(0,0,0,.2);border-top-style: solid;}
+.oxy-pro-menu .oxy-pro-menu-container:not(.oxy-pro-menu-open-container):not(.oxy-pro-menu-off-canvas-container) .oxy-pro-menu-list {flex-direction: row;}
+.oxy-pro-menu .oxy-pro-menu-container .menu-item a {text-align: left;justify-content: flex-start;}
+.oxy-pro-menu .oxy-pro-menu-container.oxy-pro-menu-open-container .menu-item, .oxy-pro-menu .oxy-pro-menu-container.oxy-pro-menu-off-canvas-container .menu-item {align-items: flex-start;}
+.oxy-pro-menu .oxy-pro-menu-off-canvas-container {top: 0;bottom: 0;right: auto;left: 0;}
+.oxy-pro-menu .oxy-pro-menu-container.oxy-pro-menu-open-container .oxy-pro-menu-list .menu-item a, .oxy-pro-menu .oxy-pro-menu-container.oxy-pro-menu-off-canvas-container .oxy-pro-menu-list .menu-item a {text-align: left;justify-content: flex-start;}
+.ct-section-inner-wrap, .oxy-header-container {max-width: 1120px;}
+body {font-family: "Maven Pro";}
+body {line-height: 1.6;font-size: 16px;font-weight: 400;color: #404040;}
+.oxy-nav-menu-hamburger-line {background-color: #404040;}
+h1, h2, h3, h4, h5, h6 {font-family: "Raleway";font-size: 36px;font-weight: 700;line-height: ;color: #404040;}
+h2, h3, h4, h5, h6 {line-height: ;}
+h3, h4, h5, h6 {line-height: ;}
+h4, h5, h6 {line-height: ;}
+h5, h6 {line-height: ;}
+h6 {line-height: ;}
+a {color: #07adb7;text-decoration: none;}
+a:hover {color: #2a445a;text-decoration: none;}
+.ct-link-text {text-decoration: ;}
+.ct-section-inner-wrap {padding-top: 75px;padding-right: 20px;padding-bottom: 75px;padding-left: 20px;}
+.oxy-header-container {padding-right: 20px;padding-left: 20px;}
+@media (max-width: 992px) {.ct-columns-inner-wrap {display: block !important;}
+	.ct-columns-inner-wrap:after {display: table;clear: both;content: "";}
+	.ct-column {width: 100% !important;margin: 0 !important;}
+	.ct-columns-inner-wrap {margin: 0 !important;}}
+.hosting-heading-one {font-family: "Raleway";color: #2a445a;font-size: 64px;font-weight: 700;line-height: 1.1;}
+@media (max-width: 767px) {.hosting-heading-one {font-size: 48px;}}
+.oxy-stock-content-styles {}
+.hosting-other-single {}
+.hosting-logo:hover {}
+.hosting-logo {transition-duration: .2s;transition-timing-function: ease;transition-property: all;}
+.hosting-simple-button:hover {transform: scale(1.05,1.05);}
+.hosting-simple-button {background-color: transparent;border: 1px solid transparent;color: #fff;padding: 12px 19.2px;}
+.hosting-simple-button {font-family: "Maven Pro";padding-left: 32px;padding-right: 32px;font-size: 16px;font-weight: 700;transition-duration: .2s;transition-timing-function: ease;transition-property: all;}
+.hosting-white-outline-button:hover {transform: scale(1.05,1.05);}
+.hosting-white-outline-button {background-color: transparent;border: 1px solid #fff;color: #fff;padding: 11px 18.2px;}
+.hosting-white-outline-button {font-family: "Maven Pro";font-size: 16px;font-weight: 700;padding-left: 32px;padding-right: 32px;border-radius: 5px;border-top-style: solid;border-right-style: solid;border-bottom-style: solid;border-left-style: solid;border-top-width: 2px;border-right-width: 2px;border-bottom-width: 2px;border-left-width: 2px;transition-duration: .2s;transition-timing-function: ease;transition-property: all;}
+.hosting-footer-1-column {text-align: left;}
+.hosting-footer-1-column:not(.ct-section), .hosting-footer-1-column.ct-section .ct-section-inner-wrap {display: flex;flex-direction: row;align-items: center;justify-content: flex-start;}
+@media (max-width: 767px) {.hosting-footer-1-column {text-align: center;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: rgba(255,255,255,.6);}
+	.hosting-footer-1-column:not(.ct-section), .hosting-footer-1-column.ct-section .ct-section-inner-wrap {display: flex;flex-direction: column;align-items: center;}}
+.hosting-footer-1-image {color: #fff;}
+.hosting-footer-1-image 
+>svg {width: 28px;height: 28px;}
+.hosting-footer-1-image {margin-right: 12px;}
+.hosting-footer-1-text {font-family: "Maven Pro";color: rgba(255,255,255,.6);font-size: 16px;font-weight: 400;line-height: 1.6;}
+.hosting-dark-outline-button:hover {transform: scale(1.05,1.05);}
+.hosting-dark-outline-button {background-color: transparent;border: 1px solid #07adb7;color: #07adb7;padding: 11px 18.2px;}
+.hosting-dark-outline-button {font-family: "Maven Pro";font-size: 16px;font-weight: 700;border-radius: 5px;border-top-style: solid;border-right-style: solid;border-bottom-style: solid;border-left-style: solid;border-top-width: 2px;border-right-width: 2px;border-bottom-width: 2px;border-left-width: 2px;padding-left: 32px;padding-right: 32px;background-color: #fff;transition-duration: .2s;transition-timing-function: ease;transition-property: all;}
+.hosting-about-2-image {border-radius: 5px;margin-bottom: 40px;}
+.hosting-heading-two {font-family: "Raleway";color: #2a445a;font-size: 40px;font-weight: 700;line-height: 1.1;margin-bottom: 0px;}
+@media (max-width: 767px) {.hosting-heading-two {font-size: 32px;}}
+.hosting-company-2-wrapper {text-align: center;width: 25%;}
+.hosting-company-2-wrapper:not(.ct-section), .hosting-company-2-wrapper.ct-section .ct-section-inner-wrap {display: flex;flex-direction: column;align-items: center;}
+.hosting-company-2-icon {color: #07adb7;}
+.hosting-company-2-icon 
+>svg {width: 36px;height: 36px;}
+.hosting-company-2-icon {margin-bottom: 12px;}
+.hosting-company-2-title {font-family: "Raleway";color: #2a445a;font-size: 20px;font-weight: 700;line-height: 1.1;margin-bottom: 8px;}
+.hosting-company-2-text {font-family: "Maven Pro";color: #666;font-weight: 400;font-size: 16px;line-height: 1.6;}
+.hosting-main-button:hover {transform: scale(1.05,1.05);box-shadow: 0px 30px 20px -20px rgba(0,0,0,.2);}
+.hosting-main-button {background-color: #07adb7;border: 1px solid #07adb7;color: #fff;padding: 12px 19.2px;}
+.hosting-main-button {padding-left: 32px;padding-right: 32px;font-weight: 700;border-radius: 5px;transition-duration: .2s;transition-timing-function: ease;transition-property: all;}
+.hosting-features-2-photo {border-radius: 5px;}
+.hosting-features-1-wrapper {text-align: center;width: 33.33%;}
+.hosting-features-1-wrapper:not(.ct-section), .hosting-features-1-wrapper.ct-section .ct-section-inner-wrap {display: flex;flex-direction: column;align-items: center;justify-content: center;}
+.hosting-features-1-icon {color: #fff;}
+.hosting-features-1-icon 
+>svg {width: 36px;height: 36px;}
+.hosting-features-1-icon {margin-bottom: 12px;}
+.hosting-features-1-title {font-family: "Raleway";color: #fff;font-size: 20px;font-weight: 700;line-height: 1.1;margin-bottom: 8px;}
+.hosting-features-1-text {color: #f6fafd;}
+.hosting-product-1-check-wrapper {width: 100%;margin-bottom: 12px;}
+.hosting-product-1-check-wrapper:not(.ct-section), .hosting-product-1-check-wrapper.ct-section .ct-section-inner-wrap {display: flex;flex-direction: row;align-items: flex-start;}
+.hosting-product-1-check {color: #5abc9c;}
+.hosting-product-1-check 
+>svg {width: 16px;height: 16px;}
+.hosting-product-1-check {margin-right: 8px;margin-top: 4px;}
+.hosting-product-1-text {font-family: "Maven Pro";color: #666;font-size: 16px;font-weight: 400;line-height: 1.6;text-align: left;}
+.hosting-product-2-wrapper {width: 100%;background-color: #fff;border-radius: 5px;padding-top: 28px;padding-left: 28px;padding-right: 28px;padding-bottom: 28px;height: 100%;box-shadow: 0px 0px 5px rgba(0,0,0,.2);}
+.hosting-product-2-icon {color: #07adb7;}
+.hosting-product-2-icon 
+>svg {width: 36px;height: 36px;}
+.hosting-product-2-icon {margin-bottom: 12px;}
+.hosting-product-2-title {font-family: "Raleway";color: #2a445a;font-size: 24px;font-weight: 900;line-height: 1.1;margin-bottom: 12px;}
+.hosting-product-2-text {font-family: "Maven Pro";color: #666;font-size: 16px;font-weight: 400;line-height: 1.6;margin-bottom: 12px;margin-left: 12px;}
+.hosting-product-2-bullet {color: #8ec98a;margin-left: -12px;}
+.hosting-product-2-digit {font-family: "Maven Pro";font-size: 48px;color: #2a445a;font-weight: 900;line-height: 1.1;margin-top: 4px;}
+.hosting-product-2-label {font-family: "Maven Pro";color: #2a445a;font-size: 16px;font-weight: 400;line-height: 1.6;margin-bottom: 20px;}
+.hosting-providers-1-image-wrapper {text-align: center;}
+.hosting-providers-1-image-wrapper:not(.ct-section), .hosting-providers-1-image-wrapper.ct-section .ct-section-inner-wrap {display: flex;flex-direction: column;align-items: center;justify-content: center;}
+.hosting-providers-1-images {}
+.hosting-providers-1-text-wrapper {text-align: left;}
+.hosting-providers-1-text-wrapper:not(.ct-section), .hosting-providers-1-text-wrapper.ct-section .ct-section-inner-wrap {display: flex;flex-direction: column;align-items: flex-start;}
+.hosting-providers-1-title {font-family: "Raleway";color: #2a445a;font-size: 24px;font-weight: 900;line-height: 1.1;margin-bottom: 12px;}
+.hosting-providers-2-text {font-family: "Maven Pro";color: #666;font-size: 16px;line-height: 1.6;}
+.hosting-contact-3-wrapper {width: 100%;margin-bottom: 20px;font-size: 16px;color: #fff;padding-bottom: 20px;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: rgba(255,255,255,.6);}
+.hosting-contact-3-wrapper:not(.ct-section), .hosting-contact-3-wrapper.ct-section .ct-section-inner-wrap {display: flex;flex-direction: row;align-items: center;}
+.hosting-contact-3-icon {color: #fff;}
+.hosting-contact-3-icon 
+>svg {width: 28px;height: 28px;}
+.hosting-contact-3-icon {margin-right: 12px;}
+.Paragraph {font-size: 16px;line-height: 1.5;max-width: 500px;}
+.hosting-contact-3-title {font-family: "Raleway";color: #2a445a;font-size: 24px;font-weight: 900;line-height: 1.1;margin-bottom: 12px;}
+.hosting-contact-3-text {font-family: "Maven Pro";color: #666;font-size: 16px;font-weight: 400;line-height: 1.6;margin-bottom: 4px;}
+.hosting-contact-3-textlink:hover {text-decoration: underline;}
+.hosting-contact-3-textlink {font-family: "Maven Pro";color: #07adb7;font-size: 16px;font-weight: 400;text-decoration: none;}
+.toggle-4605 {font-family: "Raleway";margin-left: -16px;margin-bottom: 8px;color: #07adb7;}
+.toggle-4605 .oxy-expand-collapse-icon {font-size: 12px;}
+.toggle-4605 .oxy-expand-collapse-icon::before, .toggle-4605 .oxy-expand-collapse-icon::after {background-color: color(4);}
+.toggle-4605-expanded {}
+.hosting-accordion-1-title {font-family: "Raleway";color: #2a445a;font-size: 16px;font-weight: 700;line-height: 1.6;border-bottom-style: dashed;border-bottom-width: 1px;border-bottom-color: #07adb7;text-align: left;}
+.hosting-accordion-1-title:not(.ct-section), .hosting-accordion-1-title.ct-section .ct-section-inner-wrap {display: inline-flex;flex-direction: unset;}
+@media (max-width: 767px) {.hosting-accordion-1-title {}
+	.hosting-accordion-1-title:not(.ct-section), .hosting-accordion-1-title.ct-section .ct-section-inner-wrap {flex-direction: unset;}}
+.hosting-accordion-1-text {font-family: "Maven Pro";color: #666;font-size: 16px;font-weight: 400;line-height: 1.6;text-align: left;margin-bottom: 16px;}
+.hosting-hero-1-image {width: 16%;opacity: .5;}
+@media (max-width: 767px) {.hosting-hero-1-image {width: 33.33%;}}
+.hosting-price-1-wrapper {width: 100%;background-color: #fff;border-radius: 5px;height: 100%;border-top-color: #b2d27d;border-top-width: 5px;border-top-style: solid;padding-top: 30px;padding-left: 30px;padding-right: 30px;padding-bottom: 30px;text-align: left;box-shadow: 0px 0px 5px rgba(0,0,0,.2);}
+.hosting-price-1-wrapper:not(.ct-section), .hosting-price-1-wrapper.ct-section .ct-section-inner-wrap {display: flex;flex-direction: column;align-items: stretch;}
+.hosting-pricing-1-icon {color: #07adb7;}
+.hosting-pricing-1-icon 
+>svg {width: 48px;height: 48px;}
+.hosting-pricing-1-icon {margin-bottom: 12px;}
+.hosting-pricing-1-title {font-family: "Raleway";color: #2a445a;font-size: 24px;font-weight: 900;line-height: 1.1;margin-bottom: 8px;}
+.hosting-pricing-1-text {font-family: "Maven Pro";color: #666;font-size: 16px;font-weight: 400;line-height: 1.6;margin-bottom: 12px;max-width: 360px;}
+.hosting-pricing-1-month {font-family: "Maven Pro";color: #2a445a;font-size: 12px;font-weight: 400;line-height: 1.6;margin-bottom: 24px;}
+.hosting-iconblock-1-column {text-align: center;}
+.hosting-iconblock-1-column:not(.ct-section), .hosting-iconblock-1-column.ct-section .ct-section-inner-wrap {display: flex;flex-direction: column;align-items: center;justify-content: flex-start;}
+.hosting-iconblock-1-icon {color: #07adb7;}
+.hosting-iconblock-1-icon 
+>svg {width: 48px;height: 48px;}
+.hosting-iconblock-1-icon {margin-bottom: 12px;}
+.hosting-iconblock-1-title {font-family: "Raleway";font-size: 16px;font-weight: 900;color: #2a445a;line-height: 1.1;margin-top: auto;}
+.hosting-slider-1-slide {background-color: #fff;border-radius: 5px;box-shadow: 0px 0px 5px rgba(0,0,0,.2);}
+.hosting-slider-1-image {width: 240px;}
+.hosting-slider-1-text {font-family: "Maven Pro";color: #666;font-size: 16px;font-weight: 400;line-height: 1.6;margin-bottom: 24px;font-style: italic;}
+.hosting-iconblock-2-column {text-align: center;}
+.hosting-iconblock-2-column:not(.ct-section), .hosting-iconblock-2-column.ct-section .ct-section-inner-wrap {display: flex;flex-direction: column;align-items: center;}
+.hosting-iconblock-3-icon {color: #fff;}
+.hosting-iconblock-3-icon 
+>svg {width: 48px;height: 48px;}
+.hosting-iconblock-3-icon {margin-bottom: 12px;}
+.hosting-iconblock-2-title {font-family: "Raleway";color: #fff;font-size: 16px;font-weight: 900;line-height: 1.2;margin-bottom: 4px;}
+.hosting-iconblock-2-text {font-family: "Maven Pro";color: #fff;font-size: 16px;font-weight: 400;line-height: 1.6;max-width: 360px;}
+.ari-fancybox {}
+.ct-link {}
+.ari-fancybox-iframe {}

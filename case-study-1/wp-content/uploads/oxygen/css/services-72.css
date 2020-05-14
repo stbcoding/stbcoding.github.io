@@ -1,0 +1,39 @@
+#section-2-10 > .ct-section-inner-wrap {padding-top: 75px;padding-right: 20px;padding-bottom: 75px;padding-left: 20px;display: flex;flex-direction: column;align-items: flex-start;}
+#section-2-10 {background-color: #e6f0fa;text-align: left;}
+@media (max-width:991px) {#section-2-10 > .ct-section-inner-wrap {padding-top: 40px;padding-bottom: 40px;}}
+@media (max-width:479px) {#section-2-10 > .ct-section-inner-wrap {display: flex;align-items: flex-start;}
+	#section-2-10 {text-align: left;}}
+#div_block-94-10 {width: 25%;}
+#div_block-95-10 {width: 25%;}
+#div_block-96-10 {width: 25%;}
+#div_block-97-10 {width: 25%;}
+#div_block-103-10 {width: 25%;}
+#div_block-105-10 {width: 25%;}
+#div_block-107-10 {width: 25%;}
+#div_block-109-10 {width: 25%;}
+#div_block-112-10 {width: 25%;}
+#div_block-114-10 {width: 25%;}
+#div_block-116-10 {width: 25%;}
+#div_block-118-10 {width: 25%;}
+@media (max-width:991px) {#new_columns-93-10> .ct-div-block {width: 50% !important;}}
+@media (max-width:991px) {#new_columns-93-10> .ct-div-block {width: 100% !important;}}
+@media (max-width:991px) {#new_columns-102-10> .ct-div-block {width: 50% !important;}}
+@media (max-width:991px) {#new_columns-102-10> .ct-div-block {width: 100% !important;}}
+#new_columns-102-10 {flex-direction: row-reverse;}
+@media (max-width:991px) {#new_columns-111-10> .ct-div-block {width: 50% !important;}}
+@media (max-width:991px) {#new_columns-111-10> .ct-div-block {width: 100% !important;}}
+#headline-5-10 {margin-bottom: 12px;margin-left: 20px;margin-right: 20px;}
+#text_block-3-10 {margin-left: 20px;margin-right: 20px;margin-bottom: 6px;}
+#text_block-80-10 {text-align: left;margin-left: 20px;margin-right: 20px;color: #666;font-weight: 400;margin-bottom: 24px;}
+#image-14-10 {width: 72px;}
+#image-21-10 {width: 72px;}
+#image-27-10 {width: 72px;}
+#image-34-10 {width: 72px;}
+#image-38-10 {width: 72px;}
+#image-42-10 {width: 72px;}
+#image-56-10 {width: 72px;}
+#image-60-10 {width: 72px;}
+#image-68-10 {width: 72px;}
+#image-72-10 {width: 72px;}
+#image-76-10 {width: 72px;}
+#image-52-10 {width: 72px;}

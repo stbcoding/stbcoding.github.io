@@ -1,0 +1,43 @@
+#div_block-13-36 {margin-top: 20px;}
+#div_block-24-36 {margin-top: 20px;}
+#div_block-30-36 {margin-top: 20px;}
+#div_block-38-36 {width: 30%;}
+#div_block-39-36 {width: 70%;}
+#div_block-86-36 {flex-direction: row;display: flex;}
+#div_block-121-36 {flex-direction: row;display: flex;}
+#div_block-130-36 {flex-direction: row;display: flex;}
+#div_block-137-36 {margin-top: 20px;}
+#div_block-152-36 {width: 50%;}
+#div_block-153-36 {width: 50%;}
+@media (max-width:991px) {#div_block-86-36 {flex-direction: column;display: flex;}}
+@media (max-width:991px) {#div_block-98-36 {flex-direction: column;display: flex;}}
+@media (max-width:991px) {#div_block-121-36 {flex-direction: column;display: flex;}}
+@media (max-width:991px) {#div_block-123-36 {flex-direction: column;display: flex;}}
+@media (max-width:991px) {#div_block-130-36 {flex-direction: column;display: flex;}}
+@media (max-width:991px) {#div_block-132-36 {flex-direction: column;display: flex;}}
+@media (max-width:991px) {#new_columns-37-36> .ct-div-block {width: 100% !important;}}
+@media (max-width:991px) {#new_columns-37-36> .ct-div-block {width: 100% !important;}}
+@media (max-width:991px) {#new_columns-151-36> .ct-div-block {width: 100% !important;}}
+@media (max-width:991px) {#new_columns-151-36> .ct-div-block {width: 100% !important;}}
+#headline-3-36 {font-size: 20px;}
+#headline-14-36 {font-size: 20px;}
+#headline-25-36 {font-size: 20px;}
+#headline-31-36 {font-size: 20px;}
+#headline-138-36 {font-size: 20px;}
+#text_block-106-36 {visibility: hidden;}
+#text_block-104-36 {margin-top: 50px;}
+#text_block-99-36 {visibility: hidden;}
+#text_block-124-36 {visibility: hidden;}
+#text_block-133-36 {visibility: hidden;}
+@media (max-width:991px) {#text_block-106-36 {visibility: visible;}}
+@media (max-width:991px) {#text_block-104-36 {visibility: hidden;}}
+@media (max-width:991px) {#text_block-99-36 {visibility: visible;}}
+@media (max-width:991px) {#text_block-124-36 {visibility: visible;}}
+@media (max-width:991px) {#text_block-133-36 {visibility: visible;}}
+#image-45-36 {margin-bottom: 0px;height: 300px;}
+#shortcode-60-36 {width: 100%;margin-top: -30px;}
+#shortcode-122-36 {width: 100%;margin-top: -30px;}
+#shortcode-131-36 {width: 100%;margin-top: -30px;}
+@media (max-width:991px) {#shortcode-59-36 {width: 350px;}}
+@media (max-width:991px) {#shortcode-125-36 {width: 350px;}}
+@media (max-width:991px) {#shortcode-134-36 {width: 350px;}}

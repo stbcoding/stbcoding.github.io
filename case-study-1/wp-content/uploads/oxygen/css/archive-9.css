@@ -1,0 +1,33 @@
+#section-3-106 > .ct-section-inner-wrap {display: flex;flex-direction: column;align-items: center;}
+#section-3-106 {text-align: center;background-color: #f6fafd;}
+#section-8-106 > .ct-section-inner-wrap {padding-top: 20px;}
+#section-8-106 {background-color: #f6fafd;}
+#headline-4-106 {margin-bottom: 12px;margin-left: 20px;margin-right: 20px;}
+#text_block-6-106 {color: #666;font-size: 16px;font-weight: 400;line-height: 1.6;max-width: 480px;margin-left: 20px;margin-right: 20px;}
+#_posts_grid-9-106 .oxy-posts {display: flex;flex-direction: row;flex-wrap: wrap;margin-bottom: 3em;}
+#_posts_grid-9-106 .oxy-post {display: flex;flex-direction: column;text-align: left;align-items: flex-start;width: 33.33%;padding: 20px;}
+#_posts_grid-9-106 .oxy-post-wrapper {background: white;box-shadow: rgba(0,0,0,.1) 0 0 5px;border-radius: 5px;overflow: hidden;}
+#_posts_grid-9-106 .oxy-post-image {margin-bottom: 1em;position: relative;background-color: grey;background-image: repeating-linear-gradient(45deg,#eee,#eee 10px,#ddd 10px,#ddd 20px);width: 100%;}
+#_posts_grid-9-106 .oxy-post-image-fixed-ratio {padding-bottom: 60%;background-size: cover;background-position: center center;position: relative;}
+#_posts_grid-9-106 .oxy-post-image-date-overlay {position: absolute;top: 1em;right: 1em;font-size: .7em;color: white;background-color: rgba(0,0,0,.5);padding: .7em 1em;font-weight: bold;-webkit-font-smoothing: antialiased;border-radius: 5px;}
+#_posts_grid-9-106 .oxy-post-title {font-family: "Raleway";font-size: 1.5em;line-height: 1.2em;text-decoration: none;font-weight: 900;display: block;margin: 16px 24px 20px 24px;transition: all ease .2s;}
+#_posts_grid-9-106 .oxy-post-meta {margin-top: .5em;font-size: .8em;display: flex;flex-direction: row;margin: 0 24px;}
+#_posts_grid-9-106 .oxy-post-meta a {color: #07adb7;text-decoration: none;}
+#_posts_grid-9-106 .oxy-post-meta a:hover {text-decoration: underline;}
+#_posts_grid-9-106 .oxy-post-meta-item::after {content: "·";margin-right: .5em;margin-left: .5em;}
+#_posts_grid-9-106 .oxy-post-meta-item:last-child::after {content: "";display: none;}
+#_posts_grid-9-106 .oxy-post-content {margin: 16px 24px;}
+#_posts_grid-9-106 .oxy-post-content p {margin: 0;}
+#_posts_grid-9-106 .oxy-read-more {font-weight: 700;border: 2px solid #07adb7;transition: all ease .2s;max-width: 100%;text-align: center;margin: 24px;display: block;border-radius: 5px;padding: 12px 36px;text-decoration: none;}
+#_posts_grid-9-106 .oxy-read-more:hover {transform: scale(1.05,1.05);}
+#_posts_grid-9-106 .page-numbers {color: #07adb7;text-decoration: none;font-size: 16px;font-weight: 700;margin: 0 12px;}
+#_posts_grid-9-106 .current {background: #07adb7;color: #fff;padding: 12px 16px;border-radius: 5px;}
+#_posts_grid-9-106 .oxy-post-title {font-size: 24px;color: #2a445a;}
+#_posts_grid-9-106 .oxy-post-title:hover {color: #07adb7;}
+#_posts_grid-9-106 .oxy-post-meta {font-size: 12px;color: #666;}
+#_posts_grid-9-106 .oxy-post-content {font-size: 16px;color: #666;}
+#_posts_grid-9-106 .oxy-read-more {font-size: 16px;color: #07adb7;}
+#_posts_grid-9-106 .oxy-read-more:hover {color: #07adb7;}
+#_posts_grid-9-106 .oxy-easy-posts-pages {text-align: center;}
+@media (max-width:1120px) {#_posts_grid-9-106 .oxy-post {width: 50% !important;}}
+@media (max-width:767px) {#_posts_grid-9-106 .oxy-post {width: 100% !important;}}
